@@ -89,8 +89,8 @@ fn print_emotes(emotes: Vec<&EmoteRaw>) {
     let mut v_refs: Vec<Emote> = Vec::new(); 
 
     for emote in emotes {
-        println!("🔥 {}", emote.name);
-        println!("💿 {}", emote.images.url_2x);
+        println!("✏️ {}", emote.name);
+        println!("🖼️ {}", emote.images.url_2x);
         println!("---------");
         let emote_iter = Emote {
             name: emote.name.clone(),
